@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Headerdesign.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./favicon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <title>Macby-Website</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Macby</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#tournaments">Tournaments</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="action">
+            <div class="searchbox">
+                <a href="#"><i class='bx bx-search'></i></a>
+                <input type="text" placeholder="Search Items">
+            </div>
+        </div>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+    </header>
+    <div class="banner " id="home">
+        <div class="bg">
+            <div class="content">
+                <h2>A New Home For <br> Game Lovers</h2>
+                <p>
+                    ! Discover Macby : Your ultimate gaming hub for buying, selling, and trading gear, plus
+                    hosting thrilling tournaments that connect players, ignite competition, and elevate your gaming
+                    experience to the next level ! <br>
+                    <a href="#" class="btn">Join Now</a>
+                </p>
+            </div>
+            <img src="./Images-Folder-Project/assasian.png" alt="assasian images">
+        </div>
+    </div>
+
+    <div class="about animeX" id="about">
+        <div class="contentbox">
+            <h2>About Us</h2>
+            <p>Welcome to [Macby], your one-stop destination for all things gaming! We specialize in connecting
+                gamers through our secure platform for buying, selling, and trading video games, consoles, and
+                accessories. But we don't stop there—our site is also a hub for thrilling gaming tournaments, where
+                players can showcase their skills and compete for glory. Whether you're upgrading your gear, discovering
+                new adventures, or joining exciting competitions, [Macby] fosters a vibrant, inclusive gaming
+                community. With unbeatable deals and events tailored for enthusiasts, we're here to level up your gaming
+                experience. Join us today and power your passion for gaming</p>
+            <a href="#">Read More</a>
+        </div>
+        <img src="./Images-Folder-Project/3d-render-game-equipment-console-headset-free-png.webp"
+            alt="videogames images">
+    </div>
+    <div class="games" id="games">
+        <h2>Popular Games</h2>
+        <ul>
+            <li class="list active" data-filter="all">All</li>
+            <li class="list" data-filter="pc">Pc Games</li>
+            <li class="list" data-filter="mobile">Mobile Games</li>
+        </ul>
+        <div class="cardbox">
+            <div class="card" data-item="pc">
+                <img src="./Images-Folder-Project/images1.jpg" alt="spiderman games ">
+                <div class="content">
+                    <h4>Marvel's Spider-Man</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>MRP <br> <br>&#8377 2799</p>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="pc">
+                <img src="./Images-Folder-Project/images2.jpg" alt="">
+                <div class="content">
+                    <h4>Tekken 7
+                        Arcade game</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>MRP <br> <br>&#8377 3299</p>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="pc">
+                <img src="./Images-Folder-Project/images3.jpg" alt="">
+                <div class="content">
+                    <h4>WWE 2K20
+                        Video game
+                    </h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>MRP <br> <br>&#8377 2299</p>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="pc">
+                <img src="./Images-Folder-Project/images4.jpg" alt="">
+                <div class="content">
+                    <h4>Horizon Zero Dawn - Complete Edition (PS4 Game)</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>MRP <br> <br>&#8377 9099</p>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="pc">
+                <img src="./Images-Folder-Project/images5.jpg" alt="">
+                <div class="content">
+                    <h4>Call Of Duty Infinite Warfare (PS4 Game)</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>MRP <br> <br>&#8377 1399</p>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="pc">
+                <img src="./Images-Folder-Project/images6.jpg" alt="">
+                <div class="content">
+                    <h4>GTA 6 (PS4 Game)</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>MRP <br> <br>&#8377 3299</p>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="pc">
+                <img src="./Images-Folder-Project/images7.jpg" alt="">
+                <div class="content">
+                    <h4>PS4 Standard 500 GB (Black) (Console)</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>MRP <br> <br>&#8377 14999</p>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="pc">
+                <img src="./Images-Folder-Project/images8.jpg" alt="">
+                <div class="content">
+                    <h4>PS4 Dualshock V1 (Wave Blue) (Controller)</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>MRP <br> <br>&#8377 3799</p>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="pc">
+                <img src="./Images-Folder-Project/images 9.webp" alt="">
+                <div class="content">
+                    <h4>Ratchet And Clank Rift Apart (PS5 Game)</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>MRP <br> <br>&#8377 4399</p>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="pc">
+                <img src="./Images-Folder-Project/images10.webp" alt="">
+                <div class="content">
+                    <h4>Steam Deck 64 GB Console (Console)</h4>
+                    <div class="progress-line"><span></span></div>
+                    <div class="info">
+                        <p>MRP <br> <br>&#8377 12999</p>
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- lives tournaments for games only pc -->
+
+    <div class="tournaments animeX" id="tournaments">
+        <h2>Live Tournaments</h2>
+        <div class="boxbx">
+            <div class="box">
+                <img src="./Images-Folder-Project/assasian.avif" alt="">
+                <div class="content">
+                    <h4><span>50</span>Matches in progress...</h4>
+                    <p> Assassin Tournament Organizer is Your Macby premier platform for hosting thrilling gaming
+                        tournaments,
+                        featuring seamless registration, live updates, and leaderboards. Compete, connect, and conquer
+                        in the ultimate gaming battleground!"
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">Join</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./Images-Folder-Project/freefire.jpg" alt="">
+                <div class="content">
+                    <h4><span>30</span>Matches in progress...</h4>
+                    <p> Macby is your ultimate destination for Free Fire tournaments! Organize, compete, and win with
+                        seamless registration, live updates, and leaderboards. Join Macby to showcase your skills and
+                        conquer the battleground.
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">Join</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./Images-Folder-Project/bgmi.png" alt="">
+                <div class="content">
+                    <h4><span>40</span>Matches in progress...</h4>
+                    <p>"Macby is your premier platform for BGMI tournaments! Organize, compete, and win with easy
+                        registration, real-time updates, and leaderboards. Join Macby to showcase your skills and
+                        dominate the battlefield!"
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">Join</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./Images-Folder-Project/cod1.jpg" alt="">
+                <div class="content">
+                    <h4><span>40</span>Matches in progress...</h4>
+                    <p>"Macby is your go-to platform for organizing and competing in Call of Duty tournaments. Enjoy
+                        effortless sign-ups, real-time match tracking, and rankings. Join now to prove your dominance in
+                        COD!"
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">Join</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./Images-Folder-Project/frozacar.jpg" alt="">
+                <div class="content">
+                    <h4><span>20</span>Matches in progress...</h4>
+                    <p>Macby brings the ultimate platform for Frozacars tournaments! Easily organize and join
+                        competitions with smooth registration, live tracking, and leaderboards. Showcase your driving
+                        skills and race to victory with Macby.
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">Join</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./Images-Folder-Project/godofwarss.jpg" alt="">
+                <div class="content">
+                    <h4><span>50</span>Matches in progress...</h4>
+                    <p>Macby is your ultimate destination for God of War tournaments! Host and join epic battles with
+                        simple registration, real-time updates, and rankings. Prove your might and conquer the
+                        competition today.
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">Join</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Images-Folder-Project/Valorant_a27b53.webp" alt="">
+                <div class="content">
+                    <h4><span>10</span>Matches in progress...</h4>
+                    <p>Macby is the premier platform for hosting Valorant tournaments! Experience effortless sign-ups,
+                        live match updates, and detailed leaderboards. Compete with top players and showcase your skills
+                        in thrilling battles.
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">Join</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./Images-Folder-Project/unchharted.jpg" alt="">
+                <div class="content">
+                    <h4><span>60</span>Matches in progress...</h4>
+                    <p>Macby is your ultimate platform for Uncharted tournaments! Organize and join exciting
+                        competitions with easy registration, live updates, and leaderboards. Showcase your adventure
+                        skills and claim victory in epic challenges.
+                    </p>
+                    <div class="btn">
+                        <a href="#" class="watch">Watch</a>
+                        <a href="#" class="join">Join</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact animeX" id="contact">
+        <img src="./Images-Folder-Project/animeb.webp" alt="">
+        <div class="form">
+            <h1>Contact Us </h1>
+            <div class="inputbx">
+                <p>Enter Name</p>
+                <input type="text" placeholder="Full Name">
+            </div>
+            <div class="inputbx">
+                <p>Enter Email</p>
+                <input type="text" placeholder="Email">
+            </div>
+
+            <div class="inputbx">
+                <p>FeedBack</p>
+                <textarea placeholder="Type Here..."></textarea>
+            </div>
+
+            <div class="inputbx">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="info">
+            <a href="#" class="logo">Macby</a>
+            <p> <i class='bx bx-copyright'> </i>2025 Sonu Kumar Singh , Yash Raj  |  All Rights Reserved</p>
+            <ul>
+                <li><a href=""><i class='bx bxl-facebook'></i></a></li>
+                <li><a href=""><i class='bx bxl-instagram'></i></a></li>
+                <li><a href=""><i class='bx bxl-twitter'></i></a></li>
+                <li><a href=""><i class='bx bxl-youtube'></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
